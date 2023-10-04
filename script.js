@@ -22,7 +22,7 @@ Array.from(buttons).forEach((button) => {
             }
         } 
          catch (error) {
-            // Handle the error and display it in the input field
+         
             string = "Error";
             document.querySelector("input").value = string;
             
